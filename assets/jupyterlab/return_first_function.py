@@ -1,4 +1,4 @@
 #wml_python_function
 def score( payload ):
     
-    return payload["values"][0]
+    return payload[0]["values"][0]
