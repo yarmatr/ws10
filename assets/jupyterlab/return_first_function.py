@@ -1,6 +1,4 @@
 #wml_python_function
-def my_deployable_function():
-
-    def score( payload ):
+def score( payload ):
     
-        return payload["values"][0]
+    return payload["values"][0]
